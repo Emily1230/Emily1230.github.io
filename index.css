@@ -1,0 +1,11 @@
+body {
+  background-color: Turquoise ;
+  text-align: center;  margin-left: auto;
+  margin-right: auto;
+  width: 20em
+}
+
+#myAnswers {
+  text-align: left;
+  margin-left: 2em;
+}

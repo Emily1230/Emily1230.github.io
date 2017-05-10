@@ -1,0 +1,154 @@
+<!DOCTYPE html>             <!-- Declare that this an HTML5 document. -->
+<html lang="en">            <!-- Declare the content language. -->
+<head>
+    <meta charset="utf-8">  <!-- Declare the document's character set. -->
+    <title>Math Quiz</title>   <!-- Set the page title.  Will be displayed at the top of the browser window and in bookmarks.  -->
+    <link rel="stylesheet" href="index.css">    <!-- Include styles from index.css. -->
+
+</head>
+<body>
+
+    <h1>Math Quiz</h1>
+
+<!-- we want to display each question and its form with answers in its own division -->
+
+<div id = "Question1"> What are the roots of the quadratic x^2+6x+5?
+
+<!--This form holds my radio buttons -->
+    <form id="myAnswers1" action="">
+      <!-- List all your radio buttons here.  The span tag looks to be on the next line, but it really just continues the first -->
+      <input type="radio" name="answer"  >
+      <span id="label10">2,3</span><br>
+
+      <input type="radio" name="answer" >
+      <span id="label11">-1,-5</span><br>
+
+      <input type="radio" name="answer" >
+      <span id="label12">-6,1</span><br>
+
+    </form>
+</div>
+<!-- see above, we always want to close the division before we open another one -->
+
+<div id = "Question2"> What is the sum of the roots of the quadratic equation 3x^2+6x+10?
+
+
+    <!--This form holds my radio buttons -->
+        <form id="myAnswers2" action="">
+
+          <!-- List all your radio buttons here.  The span tag looks to be on the next line, but it really just continues the first -->
+          <input type="radio" name="answer"  >
+          <span id="label20">-2</span><br>
+
+          <input type="radio" name="answer" >
+          <span id="label21">3</span><br>
+
+          <input type="radio" name="answer" >
+          <span id="label22">9</span><br>
+
+        </form>
+</div>
+
+<div id = "Question3"> What is the product of the roots of the equation 10x^2+7x+12?
+
+
+        <!--This form holds my radio buttons -->
+            <form id="myAnswers3" action="">
+
+              <!-- List all your radio buttons here.  The span tag looks to be on the next line, but it really just continues the first -->
+              <input type="radio" name="answer"  >
+              <span id="label30">0</span><br>
+
+              <input type="radio" name="answer" >
+              <span id="label31">-7/10</span><br>
+
+              <input type="radio" name="answer" >
+              <span id="label32">6/5</span><br>
+
+            </form>
+</div>
+
+<div id = "Question4"> What are the roots of the quadratic equation x^2-8x+12?
+
+
+
+            <!--This form holds my radio buttons -->
+
+                <form id="myAnswers4" action="">
+
+
+
+                  <!-- List all your radio buttons here.  The span tag looks to be on the next line, but it really just continues the first -->
+
+                  <input type="radio" name="answer"  >
+
+                  <span id="label40">7,2</span><br>
+
+
+
+                  <input type="radio" name="answer" >
+
+                  <span id="label41">6,2</span><br>
+
+
+
+                  <input type="radio" name="answer" >
+
+                  <span id="label42">8,4i</span><br>
+
+
+
+                </form>
+
+</div>
+<div id = "Question5"> What is the answer to the function f(15) = 2x+10-x?
+
+
+
+            <!--This form holds my radio buttons -->
+
+                <form id="myAnswers5" action="">
+
+
+
+                  <!-- List all your radio buttons here.  The span tag looks to be on the next line, but it really just continues the first -->
+
+                  <input type="radio" name="answer"  >
+
+                  <span id="label50">20</span><br>
+
+
+
+                  <input type="radio" name="answer" >
+
+                  <span id="label51">25</span><br>
+
+
+
+                  <input type="radio" name="answer" >
+
+                  <span id="label52">-18</span><br>
+
+
+
+                </form>
+
+</div>
+
+<div id="Display-Result" style= "display:none;"><b> Curious to see how you did?</b>
+  <br>
+</div>
+
+
+<button type="button", id="myCheckButton">Check</button>
+
+<!-- Last Message area on the screen -->
+    <span id="lastMessage"></span>
+
+    <br><br><br>
+
+    <!-- It is recommended to put <script> tags at the end of the <body>. -->
+    <script src="index.js"></script>    <!-- Include index.js as a JavaScript script file. -->
+
+</body>
+</html>
